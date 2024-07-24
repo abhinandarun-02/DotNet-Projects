@@ -1,0 +1,25 @@
+﻿@model FirstWebApp.Models.Customer
+
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>FirstWebApp</title>
+    </head>
+    <body>
+        <h1>Customer Details</h1>
+        <h1>@ViewBag.Title</h1>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>@Model.Email</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>@Model.Phone</td>
+            </tr>
+    </body>
+    </html>
